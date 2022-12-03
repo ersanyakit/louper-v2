@@ -224,4 +224,22 @@ export const NETWORKS: Record<string, Network> = {
     emoji: '⚡',
     chainId: '73799',
   },
+  bitci: {
+    title: 'BITCI - Main Network',
+    rpcUrl: 'https://rpc.bitci.com',
+    explorerUrl: 'https://bitciexplorer.com',
+    explorerApiUrl: 'https://v2.bitciexplorer.com/api',
+    emoji: '🚀',
+    chainId: '1907',
+  },
+  bitci_testnet: {
+    title: 'BITCI Chain - Test Network',
+    rpcUrl: 'https://testnet.bitcichain.com',
+    explorerUrl: 'https://testnet.bitciexplorer.com',
+    explorerApiUrl: 'https://testnet.bitciexplorer.com/api',
+    emoji: '🚀💦',
+    chainId: '1908',
+  },
+
+
 }
